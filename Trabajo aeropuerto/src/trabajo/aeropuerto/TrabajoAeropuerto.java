@@ -37,7 +37,7 @@ public class TrabajoAeropuerto {
         // 3. Cantidad de paquetes a evaluar
         int N = sc.nextInt();
 
-       double mejorCosto = Double.POSITIVE_INFINITY;
+       double mejorCosto = Double.POSITIVE_INFINITY; //No se si lo dimos en las clases 
         int mejorIndice = 1; // índice 1-based
         for (int i = 1; i <= N; i++) {
             // 4. Lectura de cada paquete (en el orden indicado)
